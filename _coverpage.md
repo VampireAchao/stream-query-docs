@@ -1,8 +1,8 @@
 <!-- _coverpage.md -->
 
-# stream-query <small>3.5</small>
+# stream-query <small>1.0.5</small>
 
-> 一个趁手的stream工具。
+> stream + orm = ?
 
 - 简洁、灵活、强大。
 - 编写效率高
