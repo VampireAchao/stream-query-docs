@@ -1,37 +1,55 @@
-# 快速开始
+### 安装
 
-## 安装
+核心依赖，可单独作为工具包使用
 
-使用`maven`
+<!-- tabs:start -->
+
+#### **Maven**
 
 ```xml
-
-<dependencies>
-    <!-- https://mvnrepository.com/artifact/io.github.vampireachao/stream-plugin-mybatis-plus -->
-    <dependency>
-        <groupId>io.github.vampireachao</groupId>
-        <artifactId>stream-plugin-mybatis-plus</artifactId>
-        <version>1.0.5</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/io.github.vampireachao/stream-core -->
-    <dependency>
-        <groupId>io.github.vampireachao</groupId>
-        <artifactId>stream-core</artifactId>
-        <version>1.0.5</version>
-    </dependency>
-</dependencies>
+<!-- https://search.maven.org/artifact/io.github.vampireachao/stream-query -->
+<dependency>
+    <groupId>io.github.vampireachao</groupId>
+    <artifactId>stream-core</artifactId>
+    <version>1.0.6</version>
+</dependency>
 ```
 
-使用`gradle`
+#### **Gradle**
 
 ```gradle
-// https://mvnrepository.com/artifact/io.github.vampireachao/stream-plugin-mybatis-plus
-implementation group: 'io.github.vampireachao', name: 'stream-plugin-mybatis-plus', version: '1.0.5'
-// https://mvnrepository.com/artifact/io.github.vampireachao/stream-core
-implementation group: 'io.github.vampireachao', name: 'stream-core', version: '1.0.5'
+// https://search.maven.org/artifact/io.github.vampireachao/stream-query
+implementation group: 'io.github.vampireachao', name: 'stream-plugin-mybatis-plus', version: '1.0.6'
 ```
 
-## 使用
+<!-- tabs:end -->
+
+
+`orm`插件，目前支持`mybatis-plus`
+
+<!-- tabs:start -->
+
+#### **Maven**
+
+```xml
+<!-- https://search.maven.org/artifact/io.github.vampireachao/stream-query -->
+<dependency>
+    <groupId>io.github.vampireachao</groupId>
+    <artifactId>stream-plugin-mybatis-plus</artifactId>
+    <version>1</version>
+</dependency>
+```
+
+#### **Gradle**
+
+```gradle
+// https://search.maven.org/artifact/io.github.vampireachao/stream-query
+implementation group: 'io.github.vampireachao', name: 'stream-core', version: '1.0.6'
+```
+
+<!-- tabs:end -->
+
+### 使用
 
 [保姆级教程](baby-sitter)
 

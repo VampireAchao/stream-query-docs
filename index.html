@@ -7,6 +7,12 @@
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <style>
+        :root {
+            --docsifytabs-border-color: #ededed;
+            --docsifytabs-tab-highlight-color: #42b983;
+        }
+    </style>
 </head>
 <body>
 <div id="app"></div>
@@ -22,6 +28,13 @@
 		coverpage: true,
 		search: 'auto',
 		subMaxLevel: 3,
+		tabs: {
+			persist: true,      // default
+			sync: true,      // default
+			theme: 'classic', // default
+			tabComments: true,      // default
+			tabHeadings: true,       // default
+		},
 	};
 </script>
 <!-- Docsify v4 -->
@@ -32,5 +45,7 @@
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
 </body>
 </html>

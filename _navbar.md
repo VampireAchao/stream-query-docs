@@ -5,4 +5,4 @@
 
 * 链接
     * [个人博客](https://vampireachao.gitee.io/)
-    * [B站](https://space.bilibili.com/34830549)
+    * [B站个人页](https://space.bilibili.com/34830549)
