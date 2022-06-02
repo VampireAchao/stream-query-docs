@@ -51,6 +51,6 @@ implementation group: 'io.github.vampireachao', name: 'stream-core', version: '1
 
 ### 使用
 
-[保姆级教程](baby-sitter)
+```java
 
-[快餐式教程](fastfood)
+```
