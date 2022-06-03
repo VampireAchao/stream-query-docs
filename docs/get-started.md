@@ -11,7 +11,7 @@
 <dependency>
     <groupId>io.github.vampireachao</groupId>
     <artifactId>stream-core</artifactId>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
 </dependency>
 ```
 
@@ -19,7 +19,7 @@
 
 ```gradle
 // https://search.maven.org/artifact/io.github.vampireachao/stream-query
-implementation group: 'io.github.vampireachao', name: 'stream-plugin-mybatis-plus', version: '1.0.6'
+implementation group: 'io.github.vampireachao', name: 'stream-plugin-mybatis-plus', version: '1.0.7'
 ```
 
 <!-- tabs:end -->
@@ -36,7 +36,7 @@ implementation group: 'io.github.vampireachao', name: 'stream-plugin-mybatis-plu
 <dependency>
     <groupId>io.github.vampireachao</groupId>
     <artifactId>stream-plugin-mybatis-plus</artifactId>
-    <version>1</version>
+    <version>1.0.7</version>
 </dependency>
 ```
 
@@ -44,7 +44,7 @@ implementation group: 'io.github.vampireachao', name: 'stream-plugin-mybatis-plu
 
 ```gradle
 // https://search.maven.org/artifact/io.github.vampireachao/stream-query
-implementation group: 'io.github.vampireachao', name: 'stream-core', version: '1.0.6'
+implementation group: 'io.github.vampireachao', name: 'stream-core', version: '1.0.7'
 ```
 
 <!-- tabs:end -->
