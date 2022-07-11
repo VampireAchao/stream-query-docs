@@ -25,7 +25,7 @@ implementation group: 'io.github.vampireachao', name: 'stream-plugin-mybatis-plu
 <!-- tabs:end -->
 
 
-`orm`插件，目前支持`mybatis-plus`
+`mybatis-plus`插件(未来可能会加入更多`orm`)
 
 <!-- tabs:start -->
 
