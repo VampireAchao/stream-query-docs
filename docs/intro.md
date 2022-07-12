@@ -15,13 +15,13 @@
 使用`SerCons.multi`，可以让你的`forEach`支持多个`lambda`操作
 
 ```java
-import static SerCons.multi;
+import static io.github.vampireachao.stream.core.lambda.function.SerCons.multi;
 
 
-Arrays.asList("阿超", "a chao").forEach(multi(
+Arrays.asList("vampire", "a chao").forEach(multi(
         System.out::println,
         System.err::println,
-        i -> System.out.println(i.equals("阿超"))
+        i -> System.out.println(i.equals("vampire"))
 ));
 
 ```
