@@ -15,7 +15,7 @@
 使用`SerCons.multi`，可以让你的`forEach`支持多个`lambda`操作
 
 ```java
-import static io.github.vampireachao.stream.core.lambda.function.SerCons.multi;
+import static SerCons.multi;
 
 
 Arrays.asList("阿超", "a chao").forEach(multi(
