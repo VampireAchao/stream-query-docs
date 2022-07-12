@@ -25,7 +25,7 @@ implementation group: 'io.github.vampireachao', name: 'stream-plugin-mybatis-plu
 <!-- tabs:end -->
 
 
-`mybatis-plus`插件(未来可能会加入更多`orm`)
+`mybatis-plus`插件
 
 <!-- tabs:start -->
 
@@ -49,6 +49,3 @@ implementation group: 'io.github.vampireachao', name: 'stream-core', version: '1
 
 <!-- tabs:end -->
 
-### 使用
-
-[查看测试用例](https://gitee.com/VampireAchao/stream-query/blob/master/stream-plugin/stream-plugin-mybatis-plus/src/test/java/io/github/vampireachao/stream/plugin/mybatisplus/OneToOneTest.java ':type=iframe width=100% height=400px')

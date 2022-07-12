@@ -8,7 +8,25 @@
 [![LICENSE](https://img.shields.io/badge/license-Apache%202-blue)](https://github.com/VampireAchao/stream-query/blob/master/LICENSE)
 [![java8](https://img.shields.io/badge/java-8-blue)](https://docs.oracle.com/javase/8/docs/)
 
-### 动机
+### 核心包
+
+核心包是对于常用lambda的一些封装，简单介绍:
+
+使用`SerCons.multi`，可以让你的`forEach`支持多个`lambda`操作
+
+```java
+import static io.github.vampireachao.stream.core.lambda.function.SerCons.multi;
+
+
+Arrays.asList("阿超", "a chao").forEach(multi(
+        System.out::println,
+        System.err::println,
+        i -> System.out.println(i.equals("阿超"))
+));
+
+```
+
+### 插件包
 
 随着自己日日夜夜的CRUD，我在想，也许是时候抽取、封装一波了
 
@@ -35,5 +53,3 @@
     // 这里的w就是LambdaQueryWrapper，此处是查询age = 1L，年龄 <= 20 的用户姓名
     List<String> names = Many.query(w -> w.le(UserInfo::getAge, 20), 1L, UserInfo::getId, UserInfo::getName);    
 ```
-
-这只是封装的其中一个类，更多的内容，文档待完善~
