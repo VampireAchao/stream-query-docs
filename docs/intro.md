@@ -1,5 +1,3 @@
-## stream-query
-
 [![阿超/stream-query](https://gitee.com/VampireAchao/stream-query/widgets/widget_card.svg?colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b)](https://gitee.com/VampireAchao/stream-query)
 
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.vampireachao/stream-query.svg?label=Maven%20Central)](https://search.maven.org/artifact/io.github.vampireachao/stream-query)
@@ -8,7 +6,7 @@
 [![LICENSE](https://img.shields.io/badge/license-Apache%202-blue)](https://github.com/VampireAchao/stream-query/blob/master/LICENSE)
 [![java8](https://img.shields.io/badge/java-8-blue)](https://docs.oracle.com/javase/8/docs/)
 
-### core包
+## core包
 
 core包是对于lambda的一些封装，简单介绍:
 
@@ -26,7 +24,7 @@ Arrays.asList("vampire", "a chao").forEach(multi(
 
 ```
 
-### plugin包
+## plugin包
 
 随着自己日日夜夜的CRUD，我在想，也许是时候抽取、封装一波了
 
