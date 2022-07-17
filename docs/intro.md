@@ -48,6 +48,6 @@ Arrays.asList("vampire", "a chao").forEach(multi(
 因此query方法提供了重载
 
 ```java
-    // 这里的w就是LambdaQueryWrapper，此处是查询age = 1L，年龄 <= 20 的用户姓名
+    // 这里的w就是LambdaQueryWrapper，此处是查询id = 1L，年龄 <= 20 的用户姓名
     List<String> names = Many.query(w -> w.le(UserInfo::getAge, 20), 1L, UserInfo::getId, UserInfo::getName);    
 ```
