@@ -54,3 +54,12 @@ List<Integer> userAges = Arrays.asList(18, 18, 28, 21, 24);
 // 此处 key 为 age , value 为 List<UserInfo>
 Map<Integer, List<UserInfo>> ageUsersMap = OneToMany.query(userAges, UserInfo::getAge);
 ```
+
+## OneToManyToOne
+
+> 查询多条记录并转换为`Map`(`key`和`value`一对多对一映射)
+
+```java
+// 此处 key 为 userId , value 为 List<RoleInfo>
+Map<Long, List<RoleInfo>> userIdRoleInfosMap = OneToManyToOne.query(userIds, UserRole::getUserId, UserRole::getRoleId, RoleInfo::getId);
+```
